@@ -4,6 +4,13 @@ import './App.css';
 
 class App extends Component {
   render() {
+    const styleTest = {
+      backgroundColor: 'black',
+      padding: '16px',
+      color: 'white',
+      fontSize: '12px'
+    };
+
     return (
       <div className="App">
         <header className="App-header">
@@ -19,6 +26,9 @@ class App extends Component {
           >
             Learn React
           </a>
+          <div style={styleTest}>
+            hi there auto refresh
+          </div>
         </header>
       </div>
     );
